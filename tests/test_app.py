@@ -167,3 +167,4 @@ def test_register_user_not_insession(client,mocker):
     content = response.data.decode()
     assert "Register User" in content
     assert "Your Name" in content
+
